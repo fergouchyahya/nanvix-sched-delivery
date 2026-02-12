@@ -34,9 +34,7 @@ Tests d’équité simples basés sur `times()` :
 
 ## Comment valider
 1. Appliquer les modifications noyau décrites ci‑dessus.
-2. Construire les outils : `cd nanvix/src/sbin && make test`.
-3. Lancer : `./test sched` (ajouter `-v` si vous forcez VERBOSE dans `flags`).
-4. Attendre que les tests « fair 2 procs » et « fair 3 procs » passent sans écart excessif ; en VERBOSE, vérifier que les diffs sont dans les bornes.
+2. Attendre que les tests « fair 2 procs » et « fair 3 procs » passent sans écart excessif ; en VERBOSE, vérifier que les diffs sont dans les bornes.
 
 ## Rappel des fichiers concernés
 - `nanvix/include/pm.h`
